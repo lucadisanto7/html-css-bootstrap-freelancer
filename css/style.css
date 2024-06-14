@@ -6,9 +6,7 @@
 header, footer{
     background-color: #2d3e51;
 }
-.bg-green{
-    background-color: #1bbc9d;
-}
+
 .content, .content-2{
     height: 200px;
     border: 2px solid black;
@@ -17,6 +15,30 @@ header, footer{
 .content-2{
     height: 50px;
 }
+.border-black{
+    border-radius: 10px;
+}
 .bg-grey{
     background-color: #3a556c;
+}
+.bg-green{
+    background-color: #1bbc9d;
+}
+.bg-red{
+    background-color: #bb4a63;
+}
+.bg-lightblue{
+    background-color: #1ea4b6;
+}
+.bg-black{
+    background-color: #150f0e;
+}
+.bg-bluesky{
+    background-color: #1c82c0;
+}
+.bg-blue{
+    background-color: #1c82c0;
+}
+.bg-pink{
+    background-color: #ccb2a3;
 }
