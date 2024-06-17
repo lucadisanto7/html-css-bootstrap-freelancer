@@ -7,38 +7,17 @@ header, footer{
     background-color: #2d3e51;
 }
 /* styling */
-.content, .content-2{
+.content{
     margin: 10px 0px  
 }
 .content-2{
     height: 50px;
-}
-.border-black{
-    border-radius: 10px;
 }
 .bg-grey{
     background-color: #3a556c;
 }
 .bg-green{
     background-color: #1bbc9d;
-}
-.bg-red{
-    background-color: #bb4a63;
-}
-.bg-lightblue{
-    background-color: #1ea4b6;
-}
-.bg-black{
-    background-color: #150f0e;
-}
-.bg-bluesky{
-    background-color: #1c82c0;
-}
-.bg-blue{
-    background-color: #0f38b4;
-}
-.bg-pink{
-    background-color: #ccb2a3;
 }
 .padding-20{
     padding: 25px 0px;
@@ -51,11 +30,10 @@ header, footer{
     border-color: white
 }
 h2{
-    color: #fff;
     margin: 20px 0px;
     font-size: 30px;
 }
-.star-line::after, .star-line::before{
+.star-line::after, .star-line::before, .star-line-black::after, .star-line-black::before{
     content: '';
     width: 60px;
     background-color: white;
@@ -63,6 +41,9 @@ h2{
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 5px;
+}
+.star-line-black::after, .star-line-black::before{
+    background-color: #000000;
 }
 .white-text{
     color: white;
@@ -90,6 +71,9 @@ h2{
 }
 .star{
     font-size: 25px;
-    color: white;
     margin: 0px 10px;
+}
+.image{
+    width: 100%;
+    border-radius: 10px;
 }
