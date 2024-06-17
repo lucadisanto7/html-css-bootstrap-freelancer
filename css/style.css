@@ -6,6 +6,10 @@
 header, footer{
     background-color: #2d3e51;
 }
+.container-sm{
+    max-width: 300px;
+    margin: 0 auto;
+}
 /* styling */
 .content{
     margin: 10px 0px  
@@ -70,7 +74,6 @@ h2{
 }
 .text-start{
     text-align: start;
-    margin: 0px 90px;
 }
 .underline-input{
     display: block;
@@ -151,6 +154,43 @@ h2{
     }
     .star-line-sm::after, 
     .star-line-sm::before{
-    width: 60px;
+        width: 60px;
+    }
+    .text-start{
+        margin: 0 auto;
+    }
+    .container-sm{
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .avatar{
+        width: 30%;
+    }
+    .subtitle{
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 992px){
+    .star-line::after, 
+    .star-line::before, 
+    .star-line-black::after, 
+    .star-line-black::before,
+    .star-line-sm::after, 
+    .star-line-sm::before{
+        width: 120px;
+    }
+    .star-line-sm::after, 
+    .star-line-sm::before{
+        width: 90px;
+    }
+    .container-sm{
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    .avatar{
+        width: 25%;
+    }
+    .subtitle{
+        font-size: 50px;
     }
 }
