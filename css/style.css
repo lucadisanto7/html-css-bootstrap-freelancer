@@ -10,14 +10,11 @@ header, footer{
 .content{
     margin: 10px 0px  
 }
-.content-2{
-    height: 50px;
-}
 .bg-grey{
     background-color: #3a556c;
 }
 .bg-green{
-    background-color: #1bbc9d;
+    background-color: #1bbc9c;
 }
 .padding-20{
     padding: 25px 0px;
@@ -33,7 +30,12 @@ h2{
     margin: 20px 0px;
     font-size: 30px;
 }
-.star-line::after, .star-line::before, .star-line-black::after, .star-line-black::before{
+.star-line::after, 
+.star-line::before, 
+.star-line-black::after, 
+.star-line-black::before,
+.star-line-sm::after, 
+.star-line-sm::before{
     content: '';
     width: 60px;
     background-color: white;
@@ -42,11 +44,18 @@ h2{
     vertical-align: middle;
     margin-bottom: 5px;
 }
+.star-line-sm::after, 
+.star-line-sm::before{
+    width: 35px;
+}
 .star-line-black::after, .star-line-black::before{
     background-color: #000000;
 }
 .white-text{
     color: white;
+}
+.f-weight-700{
+    font-weight: 700;
 }
 .head-list{
     list-style-type: none;
@@ -58,6 +67,44 @@ h2{
 }
 .txt-d-none{
     text-decoration: none;
+}
+.text-start{
+    text-align: start;
+    margin: 0px 90px;
+}
+.underline-input{
+    display: block;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+.btn{
+    background-color: #1bbd9c;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.rounded-border, .rounded-border-2, .rounded-border-3, .rounded-border-4{
+    border: 1px solid white;
+    border-radius: 100px;
+}
+.rounded-border{
+    padding: 15px 19px;
+}
+.rounded-border-2{
+    padding: 15px 12px;
+}
+.rounded-border-3{
+    padding: 15px 14px;
+}
+.rounded-border-4{
+    padding: 15px;
+}
+.gap-15{
+    gap: 15px;
+}
+.green-text{
+    color: #1bbc9c;
 }
 /* end of styling */
 
@@ -76,4 +123,34 @@ h2{
 .image{
     width: 100%;
     border-radius: 10px;
+}
+/* end of img */
+
+
+/* label */
+.label{
+    border: 1px solid white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* end of label */
+
+
+/* media query */
+@media screen and (min-width: 768px) {
+   
+    .star-line::after, 
+    .star-line::before, 
+    .star-line-black::after, 
+    .star-line-black::before,
+    .star-line-sm::after, 
+    .star-line-sm::before{
+        width: 90px;
+    }
+    .star-line-sm::after, 
+    .star-line-sm::before{
+    width: 60px;
+    }
 }
