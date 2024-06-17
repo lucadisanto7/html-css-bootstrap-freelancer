@@ -23,7 +23,7 @@ header, footer{
 .padding-20{
     padding: 25px 0px;
 }
-.navbar-dark .navbar-brand, .navbar-light .navbar-nav .nav-link{
+.navbar-dark .navbar-brand, .nav-item .nav-link{
     color: #fff;
     font-weight: 600;
 }
